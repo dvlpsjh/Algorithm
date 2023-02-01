@@ -1,4 +1,4 @@
-package org.inflearn.javacote;
+package org.inflearn.javacote.chapter1;
 
 import jdk.jfr.Name;
 

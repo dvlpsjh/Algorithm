@@ -1,4 +1,4 @@
-package org.inflearn.javacote;
+package org.inflearn.javacote.chapter1;
 
 import jdk.jfr.Name;
 
@@ -28,7 +28,8 @@ public class Quiz0110 {
                 continue;
             } else {
                 num++;
-                if(answer[i] > num) answer[i] = num;
+                //if(answer[i] > num) answer[i] = num;
+                answer[i] = Math.min(answer[i], num);
             }
         }
 
