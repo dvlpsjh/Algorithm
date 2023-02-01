@@ -1,7 +1,9 @@
 package org.inflearn.javacote;
+import jdk.jfr.Name;
 
 import java.util.Scanner;
 
+@Name("문장 속 단어")
 public class Quiz0103 {
 
     /* 일반적인 풀이

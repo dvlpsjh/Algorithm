@@ -1,8 +1,11 @@
 package org.inflearn.javacote;
 
+import jdk.jfr.Name;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
+@Name("단어 뒤집기")
 public class Quiz0104 {
     public ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();

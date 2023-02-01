@@ -1,7 +1,10 @@
 package org.inflearn.javacote;
 
+import jdk.jfr.Name;
+
 import java.util.Scanner;
 
+@Name("특정 문자 뒤집기")
 public class Quiz0105 {
     public String solution(String str) {
         int lt = 0, rt = str.length()-1;
