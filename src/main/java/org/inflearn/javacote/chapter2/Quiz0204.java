@@ -44,4 +44,5 @@ public class Quiz0204 {
         //System.out.println(m.solution(n));
         m.solution(n);
     }
+
 }
