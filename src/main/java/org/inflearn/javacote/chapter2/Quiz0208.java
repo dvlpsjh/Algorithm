@@ -7,7 +7,23 @@ import java.util.Scanner;
 
 @Name("등수 구하기")
 public class Quiz0208 {
-    public int[] solution(int n, int[] scores) {
+
+    /** 선생님 풀이 */
+    public int[] solution(int n, int[] arr) {
+        int[] answer = new int[n];
+        for (int i = 0; i < n; i++) {
+            int cnt = 1;
+            for (int j = 0; j < n; j++) {
+                if (arr[j] > arr[i]) cnt++;
+            }
+
+            answer[i] = cnt;
+        }
+
+        return answer;
+    }
+
+    public int[] solution2(int n, int[] scores) {
         int[] answer = new int[n];
         int[] copied = Arrays.copyOf(scores, scores.length);
 
