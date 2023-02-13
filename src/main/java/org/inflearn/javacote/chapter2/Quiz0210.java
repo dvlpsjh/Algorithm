@@ -5,7 +5,7 @@ import jdk.jfr.Name;
 import java.util.Arrays;
 import java.util.Scanner;
 
-@Name("봉우리")
+@Name("봉우리") // 3중 for문
 public class Quiz0210 {
 
     int[] dx = {-1, 0, 1, 0};

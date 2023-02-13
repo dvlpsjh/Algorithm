@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-@Name("임시반장 정하기")
+@Name("임시반장 정하기") // 3중 for문
 public class Quiz0211 {
 
     /** 혼자서 다시 해보기 */
