@@ -8,6 +8,7 @@ import java.util.Scanner;
 @Name("뮤직비디오(결정알고리즘)") // 결정 알고리즘 : 이분검색을 이용
 public class Q0609 {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Q0609 t = new Q0609();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -55,5 +56,8 @@ public class Q0609 {
         }
 
         return cnt;
+=======
+
+>>>>>>> 1c092783b70602237d40c4fcc7282f48c59f6d8b
     }
 }
